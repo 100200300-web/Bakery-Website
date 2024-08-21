@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.home {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-position: cover;
+}
+
+.home .layout {
+    background-color: rgba(0, 0, 0, .3);
+    height: 100vh;
+}
+
+.home .logo img {
+    width: 150px;
+}
+
+.home .logo {
+    float: left;
+}
+
+.home .nav ul {
+    float: right;
+    padding-top: 10px;
+}
+
+.home .nav ul li {
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
+
+.home .nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.landing {
+    text-align: center;
+    padding: 150px;
+    color: white;
+}
+
+.landing h1 {
+    font-family: "Alegreya ", serif;
+    font-size: 76px;
+}
+
+.landing span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.landing p {
+    margin: 15px 0;
+}
+
+.landing .landing-button button {
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 15px;
+}
+
+.landing .landing-button .btn1 {
+    background-color: #8e7754;
+}
+
+.landing .landing-button .btn2 {
+    background-color: transparent;
+    border: white 2px solid;
+}
+
+.home .slider {
+    width: 20px;
+    height: 50px;
+    border: white 2px solid;
+    margin: 80px auto 0 auto;
+    border-radius: 20px;
+}
+
+.home .dott {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px auto 0 auto;
+}
+
+/*end home section*/
+.about {
+    padding: 50px 0;
+}
+
+.about .about-img {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about .about-img img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about .about-content {
+    width: 48%;
+    display: inline-block;
+}
+
+.about .about-content img {
+    width: 50px;
+    height: 50px;
+    border: rgba(0, 0, 0, .3) 2px solid;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.about .about-content h2 {
+    margin: 20px 0;
+}
+
+.about .about-content ul {
+    margin-top: 30px;
+}
+
+.about .about-content li {
+    margin-bottom: 10px;
+}
+
+/*///////////*/
+.loc {
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+    height: 700px;
+}
+
+.containerloc {
+    width: 90%;
+    margin-left: 150px;
+    padding-top: 120px;
+}
+
+.imgloc img {
+    width: 550px;
+    margin-left: 40px;
+}
+
+.containerloc p {
+    line-height: 30px;
+
+}
+
+.containerloc h2 {
+    margin-bottom: 15px;
+}
+
+.txtloc {
+    width: 40%;
+    display: inline-block;
+    margin-top: 100px;
+    margin-right: 20px;
+    vertical-align: top;
+
+}
+
+.imgloc {
+    display: inline-block;
+}
+
+p {
+    line-height: 30px;
+}
+
+/*///////////*/
+
+.baking {
+    text-align: center;
+    margin: auto;
+    padding: 40px 0;
+    margin-bottom: 100px;
+}
+
+.baking_cont {
+    width: 80%;
+    margin: auto;
+
+}
+
+.item {
+    width: 32.33333%;
+    float: left;
+    padding: 0 5px;
+}
+
+.txtbake {
+    margin-bottom: 50px;
+}
+
+.item img {
+    width: 100%;
+}
+
+/*////////////
+.contact{
+    background-color: whitesmoke;
+    padding-top: 80px;
+    padding-bottom: 100px; 
+}
+*/
+.contact .contact-content {
+    width: 50%;
+    float: left;
+}
+
+.contact .contact-content img {
+    width: 50px;
+    height: 50px;
+    background-color: #8e7754;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.contact .contact-map {
+    width: 50%;
+    float: right;
+}
+
+iframe {
+    height: 55vh;
+    width: 100%;
+}
+
+.contact .contact-content ul li {
+    margin-bottom: 20px;
+}
+
+.contact .contact-content p {
+    margin: 20px 0;
+}
+
+/*//////////////////*/
+.blog {
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #403d38;
+    padding-block: 30px;
+    color: white;
+}
+
+.blog-section {
+    width: 90%;
+    margin: auto;
+}
+
+.blog-card {
+    float: left;
+    width: 22%;
+    padding: 20px;
+}
+
+.blog-card h4 {
+    font-size: 18px;
+    margin: auto;
+    padding: 30px;
+}
+
+.blog-card p {
+    margin: 30px;
+}
+
+.blog-card ul li {
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+    margin: 20px;
+    list-style-type: none;
+}
+
+.blog-card img {
+    width: 40px;
+    height: 40px;
+    border: rgba(0, 0, 0, .3) 2px solid;
+    border: none;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+/*///////////////*/
+.imgfooter {
+    width: 400px;
+    text-align: center;
+    padding: 90px;
+    margin-left: 450px;
+}
+
+.footer {
+    background-color: #353330;
+    padding-block: 20px;
+    text-align: center;
+    color: #686868;
+}
+
+.footer p {
+    margin-block: 40px;
+    padding: auto;
+}
+
+.footer i {
+    background-color: #403d38;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
